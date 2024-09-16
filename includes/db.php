@@ -9,7 +9,7 @@
 
 
 <?php 
-$connection = mysqli_connect('localhost','root','','db_beatstore');
+$connection = mysqli_connect('localhost','beats','beats','beatstore');
 $logged_in = false;
 $cred = null;
 ob_start();
